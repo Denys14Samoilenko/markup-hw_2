@@ -1,0 +1,103 @@
+* {
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 14px;
+   font-weight: 400;
+   font-family: "Roboto", sans-serif;
+   background-color: #ffffff;
+   line-height: 18px;
+   color: #5c646e;
+}
+
+.container {
+   max-width: 980px;
+   padding: 0 16px;
+   margin: 0 auto;
+}
+
+.logo {
+   display: inline-block;
+}
+
+a {
+   text-decoration: none;
+
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
+   height: auto;
+}
+
+p,
+ul,
+ol,
+figure {
+   margin: 0 0 16px 0;
+}
+
+*+p,
+*+ul,
+*+ol *+figure {
+   margin-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 0.67em 0;
+}
+
+*+h1,
+*+h2,
+*+h3,
+*+h4,
+*+h5,
+*+h6 {
+   margin-top: 0.67em;
+}
+
+.container {
+   width: 1000px;
+   margin: 0 auto;
+   padding: 30px;
+   margin-bottom: 200px;
+}
+
+.cube {
+   height: 100px;
+   width: 100px;
+   position: relative;
+
+}
+
+.red {
+   background-color: red;
+
+}
+
+.blue {
+   background-color: blue;
+   position: relative;
+   top: -35px;
+   left: 65px;
+   z-index: 2;
+}
+
+.green {
+   background-color: green;
+   position: relative;
+   top: -70px;
+   left: 130px;
+}
